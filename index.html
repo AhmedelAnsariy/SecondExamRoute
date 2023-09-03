@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- css files -->
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+        <!--Google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800;900&family=Work+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+   </head>
+
+<body>
+
+
+
+
+
+    <div id="spinner" class=" align-items-center justify-content-center text-white">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+          </div>
+    </div>
+
+
+   <div class="leftNavbar">
+    <div class="firstLefttNavber text-white bg-info">
+        <div class="navsLinks">
+            <h5 class="my-4 position-relative"  onclick="displaySearchInputsForm();closeLeftNavbar()">search</h5>
+            <h5 class="my-4 position-relative"  onclick="getCategories();    closeLeftNavbar()">categories</h5>
+            <h5 class="my-4 position-relative" onclick="getAreaa();          closeLeftNavbar();">area</h5>
+            <h5 class="my-4 position-relative"  onclick="getIngredients() ;   closeLeftNavbar()">ingredients</h5>
+            <h5 class="my-4 position-relative"  onclick="ShowContactsMneu();  closeLeftNavbar()" >contact </h5>
+        </div>
+
+        <div class="navFooter">
+            <p class="fs-4"><i class="fa-brands fa-facebook me-3"></i><i class="fa-brands fa-twitter me-3"></i><i class="fa-solid fa-earth-americas"></i></p>
+            <h6>Copyright  2019 All Rights
+                Reserved.</h6>
+        </div>
+
+    </div>
+
+
+    <div class="secondLeftNavBar text-white bg-danger">
+        <div class="imgNav ps-4">
+<img src="images/logo.png" class="w-50" alt="">
+        </div>
+
+
+        <div class="iconClose ps-4">
+            <i class="fa-solid fa-bars fs-3"          id="openIcon"></i>
+            <i class="fa-solid fa-xmark fs-3 d-none"  id="closeIcon"></i>
+        </div>
+
+
+        <div class="bootomSecondIcons p-3 fs-4 d-flex">
+            <i class="fa-brands fa-facebook me-3"></i>
+            <i class="fa-brands fa-twitter me-3"></i>
+
+
+        </div>
+    </div>
+
+
+  </div>
+
+
+<section class="searchIsHere mt-5">
+    <div class="container">
+        <div class="row gx-5 gy-5" id="seracDemo">
+
+        </div>
+    </div>
+</section>
+
+
+  <section class="showThings">
+    <div class="container mt-5 min-vh-100 position-relative">
+
+        <div class="row gy-5 gx-5 mt-5" id="demo">
+
+        </div>
+    </div>
+  </section>
+
+
+
+
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    </body>
+
+</html>
+
+
+
+
+
+
